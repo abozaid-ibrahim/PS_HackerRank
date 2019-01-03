@@ -5,10 +5,10 @@
 //  Created by abuzeid on 1/2/19.
 //  Copyright © 2019 abuzeid. All rights reserved.
 //
-
+//https://www.hackerrank.com/challenges/30-data-types/problem
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
