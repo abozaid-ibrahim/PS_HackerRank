@@ -1,6 +1,6 @@
 //
 //  00_DataType.swift
-//  ProblemSolving_HackerRank
+//  ProblemSolving
 //
 //  Created by abuzeid on 1/3/19.
 //  Copyright © 2019 abuzeid. All rights reserved.

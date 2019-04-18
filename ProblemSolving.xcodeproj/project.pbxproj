@@ -19,7 +19,7 @@
 		6CABA8D121DD679200EE52E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CABA8CF21DD679200EE52E3 /* Main.storyboard */; };
 		6CABA8D321DD679400EE52E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CABA8D221DD679400EE52E3 /* Assets.xcassets */; };
 		6CABA8D621DD679400EE52E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CABA8D421DD679400EE52E3 /* LaunchScreen.storyboard */; };
-		6CABA8E121DD679400EE52E3 /* ProblemSolving_HackerRankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CABA8E021DD679400EE52E3 /* ProblemSolving_HackerRankTests.swift */; };
+		6CABA8E121DD679400EE52E3 /* ProblemSolvingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CABA8E021DD679400EE52E3 /* ProblemSolvingTests.swift */; };
 		6CABA8EE21DE07D000EE52E3 /* 00_DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CABA8ED21DE07D000EE52E3 /* 00_DataType.swift */; };
 		6CE5DD0222688A500065DAC7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE5DD0122688A500065DAC7 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
@@ -49,7 +49,7 @@
 		6CABA8D521DD679400EE52E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CABA8D721DD679400EE52E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CABA8DC21DD679400EE52E3 /* ProblemSolvingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProblemSolvingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CABA8E021DD679400EE52E3 /* ProblemSolving_HackerRankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemSolving_HackerRankTests.swift; sourceTree = "<group>"; };
+		6CABA8E021DD679400EE52E3 /* ProblemSolvingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemSolvingTests.swift; sourceTree = "<group>"; };
 		6CABA8E221DD679400EE52E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CABA8ED21DE07D000EE52E3 /* 00_DataType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 00_DataType.swift; sourceTree = "<group>"; };
 		6CABA8EF21DE085400EE52E3 /* 00_DataTypeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 00_DataTypeTest.swift; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 		6CABA8DF21DD679400EE52E3 /* ProblemSolvingTests */ = {
 			isa = PBXGroup;
 			children = (
-				6CABA8E021DD679400EE52E3 /* ProblemSolving_HackerRankTests.swift */,
+				6CABA8E021DD679400EE52E3 /* ProblemSolvingTests.swift */,
 				6CABA8E221DD679400EE52E3 /* Info.plist */,
 			);
 			path = ProblemSolvingTests;
@@ -289,7 +289,7 @@
 			files = (
 				6C69A69A22688697002289FA /* MissingIntTests.swift in Sources */,
 				6C902A0E21EDD60E008AE76C /* 02_OperatorsTests.swift in Sources */,
-				6CABA8E121DD679400EE52E3 /* ProblemSolving_HackerRankTests.swift in Sources */,
+				6CABA8E121DD679400EE52E3 /* ProblemSolvingTests.swift in Sources */,
 				6C4FD96B21DE08FC00C066AF /* 00_DataTypeTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,13 +1,13 @@
 //
 //  02_OperatorsTests.swift
-//  ProblemSolving_HackerRankTests
+//  ProblemSolvingTests
 //
 //  Created by abuzeid on 1/15/19.
 //  Copyright © 2019 abuzeid. All rights reserved.
 //
 
 import XCTest
-@testable import ProblemSolving_HackerRank
+@testable import ProblemSolving
 
 class _2_OperatorsTests: XCTestCase {
     func test_percentCalculator(){

@@ -1,13 +1,13 @@
 //
 //  00_DataTypeTest.swift
-//  ProblemSolving_HackerRank
+//  ProblemSolving
 //
 //  Created by abuzeid on 1/3/19.
 //  Copyright © 2019 abuzeid. All rights reserved.
 //
 
 import XCTest
-@testable import ProblemSolving_HackerRank
+@testable import ProblemSolving
 class DataTypeProblemTest: XCTestCase {
     func test_useCase(){
         let data = DataTypeProblem(i: 12, d: 4, s: "Hacker")

@@ -1,13 +1,13 @@
 //
 //  MissingInt.swift
-//  ProblemSolving_HackerRankTests
+//  ProblemSolvingTests
 //
 //  Created by abuzeid on 4/18/19.
 //  Copyright © 2019 abuzeid. All rights reserved.
 //
 
 import XCTest
-@testable import ProblemSolving_HackerRank
+@testable import ProblemSolving
 
 class MissingInt: XCTestCase {
 

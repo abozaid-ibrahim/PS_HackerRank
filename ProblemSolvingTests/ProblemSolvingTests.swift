@@ -1,15 +1,15 @@
 //
-//  ProblemSolving_HackerRankTests.swift
-//  ProblemSolving_HackerRankTests
+//  ProblemSolvingTests.swift
+//  ProblemSolvingTests
 //
 //  Created by abuzeid on 1/2/19.
 //  Copyright © 2019 abuzeid. All rights reserved.
 //
 
 import XCTest
-@testable import ProblemSolving_HackerRank
+@testable import ProblemSolving
 
-class ProblemSolving_HackerRankTests: XCTestCase {
+class ProblemSolvingTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

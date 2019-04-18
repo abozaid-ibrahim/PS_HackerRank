@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ProblemSolving_HackerRank
+//  ProblemSolving
 //
 //  Created by abuzeid on 1/2/19.
 //  Copyright © 2019 abuzeid. All rights reserved.

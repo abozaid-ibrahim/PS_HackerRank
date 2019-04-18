@@ -1,6 +1,6 @@
 //
 //  Node.swift
-//  ProblemSolving_HackerRank
+//  ProblemSolving
 //
 //  Created by abuzeid on 3/21/19.
 //  Copyright © 2019 abuzeid. All rights reserved.
