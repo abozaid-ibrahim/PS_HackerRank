@@ -37,6 +37,23 @@
                BlueprintName = "ProblemSolvingTests"
                ReferencedContainer = "container:ProblemSolving.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "DataTypeProblemTest">
+               </Test>
+               <Test
+                  Identifier = "MissingInt">
+               </Test>
+               <Test
+                  Identifier = "ProblemSolvingTests">
+               </Test>
+               <Test
+                  Identifier = "ProblemSolving_HackerRankTests">
+               </Test>
+               <Test
+                  Identifier = "_2_OperatorsTests">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>

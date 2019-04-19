@@ -22,6 +22,8 @@
 		6CABA8E121DD679400EE52E3 /* ProblemSolvingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CABA8E021DD679400EE52E3 /* ProblemSolvingTests.swift */; };
 		6CABA8EE21DE07D000EE52E3 /* 00_DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CABA8ED21DE07D000EE52E3 /* 00_DataType.swift */; };
 		6CE5DD0222688A500065DAC7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE5DD0122688A500065DAC7 /* Default-568h@2x.png */; };
+		6CE5DD042268A97D0065DAC7 /* ZalandoTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5DD032268A97D0065DAC7 /* ZalandoTaskTests.swift */; };
+		6CE5DD062268AF370065DAC7 /* NumberToAlphabeticMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5DD052268AF370065DAC7 /* NumberToAlphabeticMapperTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		6CABA8ED21DE07D000EE52E3 /* 00_DataType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 00_DataType.swift; sourceTree = "<group>"; };
 		6CABA8EF21DE085400EE52E3 /* 00_DataTypeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 00_DataTypeTest.swift; sourceTree = "<group>"; };
 		6CE5DD0122688A500065DAC7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6CE5DD032268A97D0065DAC7 /* ZalandoTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZalandoTaskTests.swift; sourceTree = "<group>"; };
+		6CE5DD052268AF370065DAC7 /* NumberToAlphabeticMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberToAlphabeticMapperTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 			children = (
 				6C69A6972268860F002289FA /* MissingInteger.swift */,
 				6C69A69922688697002289FA /* MissingIntTests.swift */,
+				6CE5DD052268AF370065DAC7 /* NumberToAlphabeticMapperTests.swift */,
 			);
 			path = meduim;
 			sourceTree = "<group>";
@@ -102,6 +107,7 @@
 		6C69A69E2268888F002289FA /* Zalando */ = {
 			isa = PBXGroup;
 			children = (
+				6CE5DD032268A97D0065DAC7 /* ZalandoTaskTests.swift */,
 			);
 			path = Zalando;
 			sourceTree = "<group>";
@@ -290,7 +296,9 @@
 				6C69A69A22688697002289FA /* MissingIntTests.swift in Sources */,
 				6C902A0E21EDD60E008AE76C /* 02_OperatorsTests.swift in Sources */,
 				6CABA8E121DD679400EE52E3 /* ProblemSolvingTests.swift in Sources */,
+				6CE5DD042268A97D0065DAC7 /* ZalandoTaskTests.swift in Sources */,
 				6C4FD96B21DE08FC00C066AF /* 00_DataTypeTest.swift in Sources */,
+				6CE5DD062268AF370065DAC7 /* NumberToAlphabeticMapperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
