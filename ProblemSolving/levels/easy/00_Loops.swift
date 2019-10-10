@@ -8,16 +8,13 @@
 
 import Foundation
 
-class Multiplier{
-    
-    func getMultipliers(_ item:Int){
-        guard item >= 2 && item < 20 else{
+class Multiplier {
+    func getMultipliers(_ item: Int) {
+        guard item >= 2, item < 20 else {
             return
         }
-        for indx in 1...10{
-            print("\(item) * \(indx) = \(item*indx)")
+        for indx in 1 ... 10 {
+            print("\(item) * \(indx) = \(item * indx)")
         }
     }
-    
 }
-

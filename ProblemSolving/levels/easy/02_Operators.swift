@@ -7,20 +7,19 @@
 //
 
 import Foundation
-struct MealCost{
-    let mealCost:Double
-    let tipPercent:Int
-    let taxPercent:Int
-    
-    func totalCost() ->Int  {
+struct MealCost {
+    let mealCost: Double
+    let tipPercent: Int
+    let taxPercent: Int
+
+    func totalCost() -> Int {
         let tip = getPercent(percent: tipPercent, total: mealCost)
         let tax = getPercent(percent: taxPercent, total: mealCost)
-        let sum =  mealCost + tip + tax
+        let sum = mealCost + tip + tax
         return Int(round(sum))
     }
-    func getPercent(percent:Int,total:Double)->Double{
-        return (Double(percent)*total) / 100.0
-    }
-  
-}
 
+    func getPercent(percent: Int, total: Double) -> Double {
+        return (Double(percent) * total) / 100.0
+    }
+}

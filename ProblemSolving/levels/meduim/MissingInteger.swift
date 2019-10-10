@@ -6,29 +6,28 @@
 //  Copyright © 2019 abuzeid. All rights reserved.
 //
 
-public func solution(_ A : inout [Int]) -> Int {
-    
-    let sorted = A.filter{$0>0}.sorted()
-    if sorted.isEmpty {return 1}
-    
+public func solution(_ A: inout [Int]) -> Int {
+    let sorted = A.filter { $0 > 0 }.sorted()
+    if sorted.isEmpty { return 1 }
+
     var currentPointer = sorted.first!
-    if currentPointer > 1{
+    if currentPointer > 1 {
         return 1
     }
-    var target:Int! = nil
+    var target: Int!
     var lastValidInt = sorted.first!
-    for item in sorted{
+    for item in sorted {
         if item == currentPointer {
             lastValidInt = item
-        }else if item == (currentPointer + 1 ){//next
+        } else if item == (currentPointer + 1) { // next
             lastValidInt = item
             currentPointer += 1
-        } else if item > (currentPointer + 1 ){
-            target = lastValidInt  + 1
+        } else if item > (currentPointer + 1) {
+            target = lastValidInt + 1
             break
         }
     }
-    
+
     if let myTarget = target {
         return myTarget
     }
@@ -41,7 +40,6 @@ public func solution(_ A : inout [Int]) -> Int {
     guard let last = sorted.last else {
         return 1
     }
-    
+
     return last + 1
-    
 }

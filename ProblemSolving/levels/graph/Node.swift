@@ -7,6 +7,6 @@
 //
 
 import Foundation
-struct Node<T>{
-    let value:T
+struct Node<T> {
+    let value: T
 }
