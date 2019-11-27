@@ -6,30 +6,30 @@
 //  Copyright © 2019 abuzeid. All rights reserved.
 //
 class PlindSolution {
-    func isPalindrome(_ s: String) -> Bool {
-        if s.isEmpty{
-            return true
-        }
-        var index = 0
-        var rIndex  = s.count - 1
-        let stopPoint = rIndex / 2
-        while index < stopPoint && rIndex > 0{
-            if !s[index].isLetter{
-                index  += 1
-                continue
-            }
-            if !s[rIndex].isLetter{
-                rIndex  -= 1
-                continue
-            }
-            if s[index] != s[rIndex]{
-                return false
-            }
-            index += 1
-            rIndex -= 1
-        }
-        return true
-    }
+//    func isPalindrome(_ s: String) -> Bool {
+//        if s.isEmpty{
+//            return true
+//        }
+//        var index = 0
+//        var rIndex  = s.count - 1
+//        let stopPoint = rIndex / 2
+//        while index < stopPoint && rIndex > 0{
+//            if !s[index].isLetter{
+//                index  += 1
+//                continue
+//            }
+//            if !s[rIndex].isLetter{
+//                rIndex  -= 1
+//                continue
+//            }
+//            if s[index] != s[rIndex]{
+//                return false
+//            }
+//            index += 1
+//            rIndex -= 1
+//        }
+//        return true
+//    }
    
 }
 
